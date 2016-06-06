@@ -1,0 +1,201 @@
+<!doctype html>
+
+<title>NEED HELP?</title>
+
+
+<head>
+<link rel="stylesheet" type="text/css" href="jquery.css">
+<link rel="stylesheet" type="text/css" href="jqueryui/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="jqueryui/jquery-ui.structure.css">
+<link rel="stylesheet" type="text/css" href="jqueryui/jquery-ui.theme.css">
+
+</head>
+</html>
+<body >
+<img src="img2.jpg" height="100%" width="100%">
+
+	
+<!-- CONTAINER-->
+<div id="container" height="100%" width="100%">
+	
+	<!-- HEADER-->
+	<div id="header">
+		<div  id="logo"></div>
+		<div >
+		<ul id="home">
+			<li><a href="">HOME</a>
+				<ul>
+					<li><a href="">DETAILS</a></li>
+					<li><a href="">RUBY</a></li>
+					
+				</ul>
+			</li>
+		</div>
+
+		<div>
+		<ul id="career">
+			<li><a href="">CAREER</a>
+				<ul>
+					<li><a href="">START</a></li>
+					<li><a href="">END</a></li>
+					
+				</ul>
+			</li>
+		</div>
+		<div>
+		<ul id="aboutus">
+			<li><a href="">ABOUT_US</a>
+				<ul>
+					<li><a href="">CONTACT-US</a></li>
+					<li><a href="">DOCUMENT</a></li>
+				</ul>
+			</li>
+		</div>
+		<div >
+		<ul id="project">
+			<li><a href="">POST-PROJECT</a>
+				<ul>
+					<li><a href="">JAVA</a></li>
+					<li><a href="">RUBY</a></li>
+					<li><a href="">C++</a></li>
+					<li><a href="">HTML/CSS</a></li>
+					<li><a href="">JQUERY</a></li>
+					<li><a href="">JAVASCRIPT</a></li>
+					<li><a href="">PYTHON</a></li>
+					<li><a href="">SCALA</a></li>
+				</ul>
+			</li>
+		</div>
+		<div id="image_hover" hidden> <img id="image_tushar" src="tushar.jpg" height="100px" width="100px" ></div> 
+		<div id="slide"><marquee valign="20px" behaviour="slide" direction="up" width="300%"><h1 valign="200px" height="400px" >START MAKING  YOUR CAREER<h1></marquee></div>
+
+	
+
+	<!-- LINKS0N_LEFT-->
+	<div id="link_block">
+
+
+		<ul id="links">
+			
+			<button id="banner_button">CLICK TO HOST BANNER</button>
+
+			
+
+		
+		</ul>
+		<div>
+	    
+	    </div>
+	</div>
+
+	<div id="table">
+			<table id="table_inside"><br>
+				<tr>NAME</tr><input id="name" title="Enter Your Full Name" type="text"><br><br>
+				<tr>EMAIL</tr><input id="email_id" type="text" title="Email Must Contain '@' Sign"><br><br>
+				<input type="submit" value="LOGIN">&nbsp&nbsp
+				<input type="submit" value="SIGNUP"><br>
+				<button id="task">CLICK TO WRITE QUERY</button>
+
+			</table><br><br>
+			
+
+			<div id="text_area"title="textarea" hidden>
+				<text color="red">ANY QUERY?</text>
+
+				<textarea  align="bottom" height="200px" width="100px">
+				</textarea><br>
+				<input type="submit" value="SUBMIT QUERY">
+
+			</div>
+
+		
+
+	</div>
+	<div id="banner" hidden>
+		<h1 title="HEY BANNER" >BANNER<h1>
+		
+	</div>
+
+
+	<div id="side_bar">
+
+		<ul id="vertical">
+			<li><a href="">LANGUAGES</a>
+				<ul>
+					<li><a href="">JAVA</a></li>
+					<li><a href="">RUBY</a></li>
+					<li><a href="">C++</a></li>
+					<li><a href="">HTML/CSS</a></li>
+					<li><a href="">JQUERY</a></li>
+					<li><a href="">JAVASCRIPT</a></li>
+					<li><a href="">PYTHON</a></li>
+					<li><a href="">SCALA</a></li>
+
+				</ul>
+			</li>
+
+	</div>
+
+
+
+
+</div>
+
+
+
+<script src="jquery.js"></script>
+<script src="jqueryui/jquery-ui.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+	
+	$("#image_hover").fadeIn(2500).fadeOut(2500);
+	$("#vertical").menu();
+	$("#home,#career,#aboutus,#vertical,#project").menu();
+
+
+
+
+
+
+
+
+	$("#task").click(function(){
+
+		//show  the photo
+		$("#text_area").fadeToggle(250);
+
+
+
+	});
+
+
+	$("#banner_button").click(function(){
+
+		//show  the photo
+		$("#banner").slideToggle();
+
+		//hide the photo
+	});
+
+	$("#inp").datepicker();
+
+	$("#banner").tooltip({show:{effect:"bounce",duration:1000},content:"hey banner"});
+
+	$("#text_area").tooltip({show:{effect:"bounce",duration:1000},content:"Enter Your Query"});
+
+	
+
+
+
+
+});
+
+
+</script>
+</body>
+
+
+</html>

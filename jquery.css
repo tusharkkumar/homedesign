@@ -1,0 +1,148 @@
+
+body{
+	background-color:#00688b ;
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	
+	
+}
+#side_bar,#vertical{
+	width: 200px;
+	position: absolute;
+	left: 2px;
+	top:100px;
+
+
+}
+
+#container{
+height: 100%;
+
+
+}
+
+
+img{
+
+	position: absolute; top:0px; right:0px;
+
+}
+
+#home{
+	float: left;
+	background-color: white;
+	width: 100px;
+	color:black;
+	position: absolute;
+	left: 210px;
+	top: 120px;
+
+		filter:alpha(opacity=70);
+-moz-opacity:.70;
+opacity: .70;
+}
+#aboutus{
+	float: right; background-color:white; width: 110px; color:black; position: absolute; left:400px; top:120px; 
+	filter:alpha(opacity=70);
+-moz-opacity:.60;
+opacity: .70;
+}
+#project
+{	filter:alpha(opacity=70);
+-moz-opacity:.20;
+opacity: .70;
+background-color: white; width: 150px; color:black; position: absolute; left:825px; top:120px; 
+
+}
+#career{
+	float: middle; background-color: white; width: 100px; color:black; position: absolute; left:642px; top:120px;
+
+	filter:alpha(opacity=60);
+-moz-opacity:.70;
+opacity: .70;
+	
+}
+
+
+#header{
+	height: 100%;
+	
+
+}
+marquee{
+
+color:white; position: absolute; left:350px; height: 100px;
+}
+
+#table
+{position: absolute; top:100px; bottom: 30px; right:4px;
+ border:1px dashed white; color:black; background-color: #00b2ee; width: 230px; float: right; height: 545px; margin-top: 20px;
+filter:alpha(opacity=70);
+-moz-opacity:.70;
+opacity: .65;
+}
+
+#text_arae{
+	border:1px dashed white; color:white; background-color:  #00b2ee;  float: right; 
+margin-top: 20px;clear: both;width: 300px;margin-left: 20px;
+
+}
+
+#table_inside{
+position: absolute;
+top:300px;
+bottom: 30px;
+
+
+}
+
+#banner{
+
+	position: absolute;
+	top: 120px;
+	left: 205px;
+	border:1px solid black;
+	width: 67%;
+	background-color: black;
+	color: white;
+	height: 50%;
+	filter:alpha(opacity=70);
+-moz-opacity:.70;
+opacity: .70;
+	
+
+
+
+}
+
+#banner_button{
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+
+
+
+
+
+
+}
+
+
+
+#links{
+float: left; background-color: #00688b; color: white; width: 160px; height: 550px; margin-top: 20px; border:1px dashed white; margin-bottom: 2px;
+position: absolute; top:100px; bottom: 30px; left:4px;
+filter:alpha(opacity=70);
+-moz-opacity:.70;
+opacity: .70;
+}
+
+
+
+
+
+
